@@ -1,9 +1,9 @@
-### Please follow guides
+### Please follow guides in order to set up the project
 ```
 https://clojurescript.org/guides/quick-start
 ```
 
-### Development mode
+### Run project
 ```
 npm install
 npx shadow-cljs watch app
