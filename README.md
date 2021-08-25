@@ -1,3 +1,7 @@
+### Please follow guides
+```
+https://clojurescript.org/guides/quick-start
+```
 
 ### Development mode
 ```
