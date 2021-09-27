@@ -27,8 +27,9 @@
                 (add-todo "Kupi hleb, jogurt, mleko")
                 (add-todo "Idi u teretanu")
                 (add-todo "Zavrsi sve taskove na poslu")
+                (add-todo "Predaj projekat")
                 (add-todo "Izadji uvece na pice")
-                (complete-all true)))
+                (complete-all false)))
 
 (defn todo-input [{:keys [title on-save on-stop]}]
   (let [val (r/atom title)
@@ -89,7 +90,7 @@
         [:div
          [:section#todoapp
           [:header#header
-           [:h1 "todos"]
+           [:h1 "Uradi me!"]
            [todo-input {:id "new-todo"
                         :placeholder "What needs to be done?"
                         :on-save add-todo}]]
