@@ -16,7 +16,7 @@
 
 ### Project functionality description
 
-Projekat je u stvari jedna ček-lista koju sam nazvao ## Uradi me!. Kao što sam napomenuo, u izradi su korišćeni Shadow CLJS i Reagent. Čitava aplikacija nalazi se u samo jednoj komponenti, core.cljs, koja se nalazi u folderu src/simpletodo. U folderu public/css nalazi se čitav stajling projekta u CSS formatu (bez korišćenja preprocessora).
+Projekat je u stvari jedna ček-lista koju sam nazvao Uradi me! Kao što sam napomenuo, u izradi su korišćeni Shadow CLJS i Reagent. Čitava aplikacija nalazi se u samo jednom fajl komponenti, core.cljs, koji se nalazi u folderu src/simpletodo. U folderu public/css nalazi se čitav stajling projekta u CSS formatu (bez korišćenja preprocessora).
 
 Aplikacija ima sledeće funkcionalnosti:
 1) Inicijalno imamo predefinisane obaveze koje trebamo da ispunimo, i njih možemo čekirati kao gotove ili ukloniti sa liste (ukoliko se jedna ukloni, u donjem levom uglu smanjiće se broj "items left", kao i u donjem desnom "clear completed")
